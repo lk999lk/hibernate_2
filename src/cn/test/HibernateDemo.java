@@ -45,10 +45,10 @@ public class HibernateDemo {
 		
 //		第六步 提交事务
 		tx.commit();
+		
 
 //		第七步 关闭资源
 		session.close();
 		sessionFactory.close();
-		System.out.print("执行了");
 	}
 }
